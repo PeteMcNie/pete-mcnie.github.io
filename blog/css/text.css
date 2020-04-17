@@ -1,5 +1,5 @@
 * { 
-    border: 1px solid;     
+    box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -11,17 +11,17 @@
 .logo {
     font-size: larger;
     text-align: center;
-
 }
+ 
 
-
+ /* Nav CSS Starts Here  */
 .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
-    float: right;
+    justify-content: space-around;
 }
   
 .nav-link a {
@@ -32,43 +32,79 @@
     margin: 10px;
     padding: 10px;
   }
+
+  .footer-link a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+  }
   
 .nav-link a:hover {
     background-color: #111;
   }
+/* Nav CSS ends */
+
 
 
 .col-3 {
     width: 25%;
 }
 
-/* .navcolor {
-    background-color: aquamarine;
-} */
-
 .col-9 {
-    
     colour: rgba(8, 31, 243, 0.938);
     width: 75%;
 }
 
-/* .toprow {
+.col-12 {
+    width: 100%;
+}
+
+.toprow {
     position: fixed;
     top: 0;
     width: 100%;
-  } */
+    background-color: white;
+  }
 
 .bg-img {
-    background-image: url("../images/unipale.png");
+    background-image: url("../images/walksandbw.png");
     background-color: rgb(187, 187, 187);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 5em;
+    font-weight: 500;
     overflow: visible;
     white-space: nowrap;
     position: relative;
 }
+
+
+
+ /* Styling socaial media links */
+
+
+
+  .fa-facebook {
+    background: rgb(71, 71, 71);
+    color: white;
+  }
+
+  .fa-instagram {
+    background: rgb(71, 71, 71);
+    color: white;
+  }
+
+  .fa-twitter {
+    background: rgb(71, 71, 71);
+    color: white;
+  }
+
+
+
+
