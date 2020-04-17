@@ -3,6 +3,10 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
+html {
+  font-size: 1em;
+}
+
 .row {
     display: flex;
 }
@@ -74,24 +78,28 @@
     background-color: rgb(187, 187, 187);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 90vh;
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 6rem;
     font-weight: 500;
     overflow: visible;
-    white-space: nowrap;
+    white-space: pre;
     position: relative;
+    margin-top: 30vh;
 }
 
-
+h3 {
+  margin: 1.5vh 0 15vh 0;
+}
 
  /* Styling socaial media links */
 
 
 
   .fa-facebook {
-    background: rgb(71, 71, 71);
+    background: rgb(56, 53, 53);
     color: white;
   }
 
