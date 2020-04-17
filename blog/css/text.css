@@ -1,118 +1,102 @@
-* { 
-    box-sizing: border-box;
-    font-family: 'Ropa Sans', sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-html {
-  font-size: 1em;
+[class*="col-"] {
+  float: left;
+  padding: 15px;
 }
 
-.row {
-    display: flex;
+.col-1 {
+  width: 8.33%;
 }
 
-
-.logo {
-    font-size: larger;
-    text-align: center;
+.col-2 {
+  width: 16.66%;
 }
- 
-
- /* Nav CSS Starts Here  */
-.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-}
-  
-.nav-link a {
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
-  }
-
-  .footer-link a {
-    display: block;
-
-    text-align: center;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
-  }
-  
-.nav-link a:hover {
-    background-color: #111;
-  }
-/* Nav CSS ends */
-
-
 
 .col-3 {
-    width: 25%;
+  width: 25%;
+  border: 1px solid black;
+}
+
+.col-4 {
+  width: 33.33%;
+  border: 1px solid purple;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
 }
 
 .col-9 {
-    colour: rgba(8, 31, 243, 0.938);
-    width: 75%;
+  width: 75%;
+  border: 1px solid green;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
 }
 
 .col-12 {
-    width: 100%;
+  width: 100%;
+  border: 1px solid red;
 }
 
-.toprow {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-  }
+.top {
+  height: 10vh;
 
-.bg-img {
-    background-image: url("../images/walksandbw.png");
-    background-color: rgb(187, 187, 187);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 90vh;
 }
 
-h1 {
-    font-size: 6rem;
-    font-weight: 500;
-    overflow: visible;
-    white-space: pre;
-    position: relative;
-    margin-top: 30vh;
+.main {
+  height: 40vh;
+  margin-top: 1vh;
+  padding-top: 1vh
 }
 
-h3 {
-  margin: 1.5vh 0 15vh 0;
+.title {
+  text-align: center;
+
 }
 
- /* Styling socaial media links */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
 
 
-
-  .fa-facebook {
-    background: rgb(56, 53, 53);
-    color: white;
-  }
-
-  .fa-instagram {
-    background: rgb(71, 71, 71);
-    color: white;
-  }
-
-  .fa-twitter {
-    background: rgb(71, 71, 71);
-    color: white;
-  }
+li a {
+  display: inline;
+  color: blue;
+}
 
 
 
 
+
+
+
+
+
+.main {
+  background-image: url();
+
+}
