@@ -67,18 +67,6 @@ body {
   border: 1px solid black;
 }
 
-.grid-container.top {
-  display: grid;
-  grid-template-columns: auto auto;
-  border: 1px solid black;
-}
-
-.grid-container.main {
-  display: grid;
-  grid-template-columns: auto;
-  border: 1px solid pink;
-}
-
 /* Page layout CSS */
 .top {
   height: 3vh;
@@ -88,7 +76,6 @@ body {
   height: 45vh;
   margin-top: 1vh;
   padding-top: 15vh;
-  grid-column: 1 /13;
 }
 
 .blog-posts {
