@@ -1,5 +1,6 @@
 * { 
     border: 1px solid;     
+    font-family: 'Ropa Sans', sans-serif;
 }
 
 .row {
@@ -8,8 +9,9 @@
 
 
 .logo {
-    max-width: 100%;
-    height: auto;
+    font-size: larger;
+    text-align: center;
+
 }
 
 
@@ -18,19 +20,17 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-  }
-  
-/* .nav-link {
-    float: left;
-  } */
+    display: flex;
+    float: right;
+}
   
 .nav-link a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    margin: 10px;
+    padding: 10px;
   }
   
 .nav-link a:hover {
@@ -39,11 +39,15 @@
 
 
 .col-3 {
-    color: red;
     width: 25%;
 }
 
+/* .navcolor {
+    background-color: aquamarine;
+} */
+
 .col-9 {
+    
     colour: rgba(8, 31, 243, 0.938);
     width: 75%;
 }
@@ -54,7 +58,17 @@
     width: 100%;
   } */
 
-img {
-    max-width: 100%;
-    height: auto;
+.bg-img {
+    background-image: url("../images/unipale.png");
+    background-color: rgb(187, 187, 187);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    overflow: visible;
+    white-space: nowrap;
+    position: relative;
 }
