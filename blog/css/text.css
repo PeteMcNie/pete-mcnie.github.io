@@ -59,7 +59,7 @@ a:hover {
   font-size: 2em;
 }
 
-p.title {
+h2.title {
   text-align: center;
   font-size: 1em;
 }
@@ -104,13 +104,13 @@ h3 {
 }
 
 
-p {
+p.preview{
   text-align: center;
   font-size: 1em;
   color: black;
 }
 
-.blog-item a:hover {
+nav .blog-item .blog-item a:hover {
   color: rgb(212, 129, 4);
 }
 /* Blog CSS ends */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pete's Blog</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/text.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="sprint1-techical.html">HOME</a></li>
+          <li class="nav-item"><a href="#">BLOGS</a></li>
+          <li class="nav-item"><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <header>
+        <div class="main">
+          <h1 class="title">Positioning</h1>
+          <h2 class="title">Differences between absolute, relastive and fixed postioning</h2>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <h4>Position: Absolute;</h4>
+            <p>Positioning absolute is a powerful tool but should be used with caution if you don't know what you're doing...like me. 
+                Every HTML document is as a block flow of elements going down the page. 
+                By assigning position: absolute; to an item we arre removing it from the block flow. 
+                This means other items will ignore it and move up as if it was not there. 
+                Usually you will see the position absolute item now covering these items that have moved up behind it. 
+                Position: absolute; items look for a parent element that also have a position element. Let's look at two cases:
+                Firstly, no postion element anywhere else - our position: absolute; element will be positioned with regards to the html element you have set when you first created your page. Great if you want your element to remain somewhere like the top left corner of the document. Maybe a logo.
+                Secondly, if a parent element has a position element - the position: absolute; element will be positioned with regards to this parent element. Great if you want something to remain postioned in the top left of that parent element.
+            </p>
+        </div>
+        <div>
+            <h4>Postion: Relative;</h4>
+            <p></p>
+        </div>
+
+        <div>
+            <h4>Position: Fixed;</h4>
+            <p></p>
+        </div>
+    </section>
+
+    
+    
+
+
+  </body>
+</html>
