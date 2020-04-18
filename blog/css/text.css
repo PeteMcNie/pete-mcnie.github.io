@@ -8,7 +8,6 @@ body {
 }
 
 /* Page layout CSS */
-
 .main {
   height: 50vh;
   margin-top: 1vh;
@@ -114,3 +113,28 @@ nav .blog-item .blog-item a:hover {
   color: rgb(212, 129, 4);
 }
 /* Blog CSS ends */
+
+
+ /* Section/main writing area */
+ .study {
+    display: inline-block;
+    width: 800px;
+    background-color: lightblue;
+    margin-bottom: 1vh;
+ }
+
+ h4 {
+  text-align: center;
+  background-color: pink;
+ }
+
+ .words {
+  display: inline-block;
+  background-color: bisque;
+ }
+
+ .ss {
+  display: inline-block;
+  
+
+ }
