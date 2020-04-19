@@ -51,6 +51,10 @@ a:hover {
   font-size: 2em;
 }
 
+hr {
+  width: 80%;
+}
+
 h2.title {
   text-align: center;
   font-size: 1em;
