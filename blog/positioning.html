@@ -30,24 +30,58 @@
         <div class="study">
             <h4>Position: Absolute;</h4>
             <div class="words">
-                <p>Positioning absolute is a powerful tool but should be used with caution if you don't know what you're doing...like me. 
-                    Every HTML document is as a block flow of elements going down the page. 
-                    By assigning position: absolute; to an item we arre removing it from the block flow of elements and the item will no longer be a block itself. 
+                <p>Position: absolute; is a powerful tool but should be used with caution if you don't know what you're doing...like me.
+                    Every HTML document is a block flow of elements going down the page.
+                    By assigning position: absolute; to an item we are removing it from the block flow of elements <strong>and</strong> the item will no longer be a block itself. </p>
+            </div> 
+            <div class="ss">
+                <figure>
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <figcaption>...</figcaption>
+                </figure>
+            </div>
+
+            <div class="words">
+                <p>  
                     This means other items will ignore it and move up as if it was not there. 
                     Usually you will see the position absolute item now covering these items that have moved up behind it. 
-                    Position: absolute; items look for a parent element that also have a position element. Let's look at two cases:
+                    Position: absolute; items look for a parent element that also have a position syntax. Let's look at two cases:
+                </p>
+            </div>
+            <div class="ss">
+                <figure>
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <figcaption>...</figcaption>
+                </figure>
+            </div>
+            <div class="words">
+                <p>
                     Firstly, no postion element anywhere else - our position: absolute; element will be positioned with regards to the html element you have set when you first created your page. Great if you want your element to remain somewhere like the top left corner of the document. Maybe a logo.
-                    Secondly, if a parent element has a position element - the position: absolute; element will be positioned with regards to this parent element. Great if you want something to remain postioned in the top left of that parent element.
+                    Secondly, if a parent element has a position element - the position: absolute; element will be positioned with regards to this parent element. 
+                    Great if you want something to remain postioned in the top left of that parent element.
+                </p>
+            </div>
+            <div class="ss">
+                <figure>
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <figcaption>...</figcaption>
+                </figure>
+            </div>
+
+            <div class="words"> 
+                <p>
+                    
                     To move a position: absolute; item to where you want it displayed on the page use top: bottom: left: and right: syntax.
                     You will notice the item is still in front of the other block elements in the workflow. See z-index below for how to fix change this.
                 </p>
             </div>
             <div class="ss">
                 <figure>
-                    <img src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
                     <figcaption>...</figcaption>
                 </figure>
             </div>
+            
         </div>
 
 
@@ -56,12 +90,20 @@
         <div class="study">
             <h4>Postion: Relative;</h4>
             <div class="words">
-            <p> Position: relative; can be used as a parent element for any position: absolute item. 
-                This means the position: absolute; element will remain within the position relative parent.
-                Position relative maintains the element as a block and in the block flow unlike position: absolute; which removed the item from the block flow.
-                We are then able to use top: bottom: left: and right: on this element to move it as we wish but the items below it will not move into our position: relative; elements space. 
-                Other items still 'think' our position: relative; item is in its original location in the block flow.
-            </p>
+                <p> Position: relative; can be used as a parent element for any position: absolute; element. 
+                    This means the position: absolute; element will remain within the block of the relative parent.
+                    Position relative maintains the element as a block and in the block flow unlike position: absolute; which removed the item from the block flow.
+                </p>
+                <p>
+                    We are then able to use top: bottom: left: and right: on this element to move the element as we wish, the elements below it will not move into our position: relative; elements space. 
+                    Other items still 'think' our position: relative; item is in its original location in the block flow.
+                </p>
+            </div>
+            <div class="ss">
+                <figure>
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <figcaption>...</figcaption>
+                </figure>
             </div>
         </div>
 
@@ -70,26 +112,44 @@
             <div class="words">
                 <p>
                     With position: fixed; again we are removing the element as part of our block flow.
-                    This time however, we position the element with position: fixed; with regards to our viewport.
+                    This time however, we position the element with position: fixed; with regards to our <strong>viewport</strong>.
                     We use top: bottom: left: and right: on this element and then the item will remain in this position as you scroll up and down.
                     Very handy for items we want to stay in view such as a top navbar! 
                     In fact if you check out my CSS you will see this is exactly how I kept it at the top of the screen.
                 </p>
             </div>
+            <div class="ss">
+                <figure>
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <figcaption>...</figcaption>
+                </figure>
+            </div>
+
         </div>
 
         <div class="study">
             <h4>Z-Index:</h4>
             <div class="words">
-                <p>Once you have used the postion: element you are able to start using the z-index:
-                    What is the z-index:? It is basically which items are on top or behind one another.
-                    As I mentioned in position: absolute; above the element we assign it to will move out of the block flow and the items below it move up into the space it was located.
+                <p>Once you have used the postion: syntax you are able to start using the z-index:
+                    What is the z-index:? It is basically which items are on top or behind one another on our webpage.
+                </p>
+                <p>
+                    As I mentioned in position: absolute; earlier the element we assign it to will move out of the block flow and the items below it move up into the space it was located.
                     However, our postion: absolute; element now covers the elements that were below it in the block flow.
+                </p>
+                <p>
                     We can adjust which item is infront or behind the other by assigning them both the z-index syntax.
                     Using z-index: whichever item we assign a higher number to will be infront of the other items.
                     We can use it to move any element forwards and backwards as long as the element have a position: syntax added to them first.
                 </p>
             </div>
+            <div class="ss">
+                <figure>
+                    <img class="screen" src="./images/wlgbw.jpeg" alt="explaination of image">
+                    <figcaption>...</figcaption>
+                </figure>
+            </div>
+
         </div>
     </section>
 

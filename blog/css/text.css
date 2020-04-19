@@ -118,23 +118,32 @@ nav .blog-item .blog-item a:hover {
  /* Section/main writing area */
  .study {
     display: inline-block;
-    width: 800px;
+    width: 100%;
     background-color: lightblue;
     margin-bottom: 1vh;
  }
 
  h4 {
-  text-align: center;
+  font-size: 1.5em;
   background-color: pink;
  }
 
  .words {
   display: inline-block;
   background-color: bisque;
+  width: 60vw;
+  padding: 1vh 1vw 1vh 1vw;
+  margin-left: 3vw;
  }
 
  .ss {
   display: inline-block;
-  
+  width: 30vw;
+  background-color: plum;
 
+ }
+
+ .screen {
+   width: 100%;
+   height: auto;
  }
