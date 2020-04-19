@@ -76,18 +76,17 @@ h2.title {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  
 }
 
 /* child */
-.blog-item {
+.blog-list a {
+  text-decoration: none;
   flex-basis: 300px;
   margin: 1vw;
   padding: 1vw;
+  border-radius: 5%;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.blog-item a {
-  text-decoration: none;
 }
 
 img {
@@ -101,15 +100,10 @@ h3 {
   color: black;
 }
 
-
 p.preview{
   text-align: center;
   font-size: 1em;
   color: black;
-}
-
-nav .blog-item .blog-item a:hover {
-  color: rgb(212, 129, 4);
 }
 /* Blog CSS ends */
 
