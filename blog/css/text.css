@@ -127,6 +127,9 @@ p.preview{
   line-height: 1.6;
  }
 
+ .h {
+   font-size: 1.3em;
+ }
 
  /* Parent */
  .pictures {
