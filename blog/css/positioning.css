@@ -1,0 +1,37 @@
+html {
+    background-color: rgb(148, 148, 10);
+    padding: 10px;
+
+}
+
+body {
+    background-color: tomato;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+header {
+    background-color: royalblue;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+main {
+    background-color: rgb(5, 124, 69);
+    padding: 10px;
+    /* margin: 10px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+footer {
+    background-color: tan;
+    padding: 10px;
+    margin: 10px;
+}

@@ -21,16 +21,12 @@ body {
 nav.top-nav {
   width: 100%;
   background-color: white;
-  /* margin: 2vh 0px 2vh 0px;
-  padding: 2vh 2vw 2vh 2vw; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 93vh;
 }
-
-
 
 ul.nav-list {
   list-style-type: none;
@@ -73,6 +69,7 @@ h2.title {
 
 
 /* Blog CSS */
+/* parent */
 .blog-list {
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +77,7 @@ h2.title {
   list-style-type: none;
 }
 
+/* child */
 .blog-item {
   flex-basis: 300px;
   margin: 1vw;
@@ -117,7 +115,6 @@ nav .blog-item .blog-item a:hover {
 
  /* Section/main writing area */
  .study {
-    display: inline-block;
     width: 100%;
     background-color: lightblue;
     margin-bottom: 1vh;
@@ -126,22 +123,40 @@ nav .blog-item .blog-item a:hover {
  h4 {
   font-size: 1.5em;
   background-color: pink;
+  margin: 1.5vh 0.5vw 0.5vh 0.5vw;
+  padding-left: 1.5vw;
  }
 
  .words {
-  display: inline-block;
   background-color: bisque;
-  width: 60vw;
-  padding: 1vh 1vw 1vh 1vw;
+  width: 100%;
+  padding: 0.5vh 5vw 0.5vh 5vw;
   margin-left: 3vw;
  }
 
- .ss {
-  display: inline-block;
-  width: 30vw;
-  background-color: plum;
 
+ /* Parent */
+ .pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rebeccapurple;
  }
+
+/* 1st child */
+ .ss {
+  background-color: plum;
+  padding: 0vh 0.5vw 0vh 0.5vw;
+  margin: 0vh 1vw 0vh 1vw;
+  flex-basis: 400px;
+ }
+
+
+ /* 2nd child */
+ .ss-item {
+  flex-basis: 300px;
+}
+
 
  .screen {
    width: 100%;
