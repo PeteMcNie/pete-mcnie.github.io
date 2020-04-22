@@ -19,31 +19,55 @@ body {
 
 
 /* Nav layout CSS */
-nav.top-nav {
+.logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+
+.navbar {
   width: 100%;
   background-color: white;
+  overflow: auto;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
+  text-align: right; 
 }
 
-ul.nav-list {
-  list-style-type: none;
-  display: flex;
-  padding-left: 10vw;
-}
-
-.nav-item a {
-  color: black;
+.navbar a {
+  float: none;
+  padding: 3vh 8vw 3vh 8vw;
+  /* margin-right: 1vw; */
+  color: rgb(43, 43, 56);
   text-decoration: none;
-  margin: 10vw;
-
+  font-size: 2vh;
+  display: inline-block;
 }
 
-a:hover {
+.navbar a:hover {
   color: rgb(212, 129, 4);
 }
-/* Nav layout CSS ends */
+
+.navbar a.active {
+  background-color: white;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar a {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1vh;
+  }
+
+  .logo {
+  display: none;
+  }
+}
+/* NEW NAV BAR ENDS######################## */
 
 
 
