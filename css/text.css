@@ -135,6 +135,57 @@ p.preview{
 /* Blog CSS ends */
 
 
+/* ######KAKAPO SECTION###### */
+
+.share {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.introduction{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.kakapo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: inline-block;  
+}
+
+.introduction.funinfo {
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+  .kakapo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;  
+  }
+  
+  .introduction.funinfo {
+    font-size: 2vh;
+  }
+  
+
+  
+}
+
+
+
+/* #####KAKAPO SECTION ENDS###### */
+
+
+
  /* Section/main writing area */
  .study {
     width: 100%;
@@ -178,3 +229,11 @@ p.preview{
  .ss-item {
   flex-basis: 300px;
 }
+
+
+.pink {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+}
+
