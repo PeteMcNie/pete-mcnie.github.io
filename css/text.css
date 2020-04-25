@@ -12,7 +12,7 @@ body {
 .main {
   height: 55vh;
   margin-top: 1vh;
-  padding-top: 20vh;
+  padding-top: 25vh;
 }
 /* Page layout CSS ends */
 
@@ -20,8 +20,8 @@ body {
 
 /* Nav layout CSS */
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   float: left;
 }
 
@@ -42,7 +42,7 @@ body {
   /* margin-right: 1vw; */
   color: rgb(43, 43, 56);
   text-decoration: none;
-  font-size: 3vh;
+  font-size: 20px;
   display: inline-block;
 }
 
@@ -74,7 +74,7 @@ body {
 /* Main body CSS */
 .title {
   text-align: center;
-  font-size: 2em;
+  font-size: 4vh;
 }
 
 hr {
@@ -83,7 +83,7 @@ hr {
 
 h2.title {
   text-align: center;
-  font-size: 1em;
+  font-size: 2.5vh;
 }
 
 .main {
