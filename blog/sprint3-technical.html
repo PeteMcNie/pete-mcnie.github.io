@@ -42,7 +42,7 @@
             <div class="screen-shot">
                 <figure class="screen-shot-item">
                     <img class="screen" src="..." alt="...">
-                    <figcaption></figcaption>
+                    <figcaption>Figure 1</figcaption>
                 </figure>
             </div>
           </div>
@@ -62,8 +62,10 @@
                   <p>Firstly, your computer runs a certain type of browser to explore the internet. This could be safari, firefox or the popular google chrome. 
                     These browsers create a window for us to use. Inside of this window a document or webpage is created by us, our webpage!
                   </p>
-                  <p>The document is actually a DOM made up of 'NODES' to the computer. What we see as pieces of data such as elements 
-                    (&lt;body&gt; or &lt;div&gt;) & attributes (class="time") etc the computer sees as NODES in the DOM.</p>
+                  <p>The DOM is a representation of our HTML document that has elements arranged into the similar tree structure you see in your HTML.
+                    It is through this DOM tree structure that we can add to, delete, edit. Each element (&lt;body&gt; or &lt;div&gt;) or attribute (class="time") 
+                    we add in our code is a new NODE (or branch) in the DOM tree structure. What we see as pieces of data such as elements 
+                     & attributes etc the computer sees as NODES in the DOM.</p>
 
                   <p>This is where Javascript comes in. Using Javascript we can manipulate the NODES in the DOM, which we see as manipulation of the pieces of
                     data that make up our webpage, the elements and attributes etc.</p>
@@ -71,7 +73,7 @@
                 <div class="dom-model">
                   <figure>
                     <img src="#" atl="">
-                    <figcaption></figcaption>
+                    <figcaption>Figure 2</figcaption>
                   </figure>
                 </div>
             </div>
@@ -81,7 +83,7 @@
             <p class="h">How does Javascript interact with the DOM to alter our web page?</p>
             <div class="words">
               <p>Using in-built methods that Javascript has, such as:</p>
-              <ul>
+              <ul class="code">
                 <li>.getElementsByTagName()</li>
                 <li>.getElementsByClassName()</li>
                 <li>.getElementsByID()</li>
@@ -139,28 +141,143 @@
           
           <div class="share-space">
             <div class="words">
-              <p></p>
+              <p>An example of control flow is an if....else statement. If one statement is true a specific set of code executes, otherwise (or else)
+                another set of code will execute.
+              </p>
+              <p>Look at our example in figure 3. If milk is available in the fridge we will pour it on our cerial and have breakfast.
+                Otherwise (or else), we will go to the shop and buy milk.
+              </p>
             </div>
             <div class="controlflow">
               <figure>
                 <img src="#" atl="">
-                <figcaption></figcaption>
+                <figcaption>Figure 3</figcaption>
               </figure>
             </div>
           </div>
 
-
-
-
-
           <div class="study">
-            <h4></h4>
+            <p class="h">Loops</p>
             <div class="words">
-              <p></p>
-              <p></p>
+              <p>Loops are our way of doing the same action or command over and over again. In programming this is called iteration.</p>
+              <p>If we have a piece of code that we need to run over and over again instead of wirting out that same code we can create 
+                a loop which we can then designate to run as many times as we need it to.
+              </p>
+
+              <p>Lets say we decide to buy more than one bottle of milk once we are at the shop from our example above. A loop will keep 
+                running until we have reached the number of milk bottles we need before leaving instead of just grabbing one.
+              </p>
             </div>
           </div>
 
+          <div class="pictures">
+            <div class="screen-shot">
+                <figure class="screen-shot-item">
+                  <!--THE PRE IMAGE OF A LOOP GOES HERE-->
+                    <img class="screen" src="..." alt="...">
+                    <figcaption>Figure 4</figcaption>
+                </figure>
+            </div>
+          </div>
+
+          <div class="study">
+            <div class="words">
+              <p>In our example (figure 4), because we set up a loop the code will run three times gettting us three bottles of milk before exiting.</p>
+            </div>
+          </div>
+
+
+          <div class="study">
+            <p class="h">Functions</p>
+            <div class="share-space">
+              <div class="words">
+                <p>Functions allow us to store a piece of our code inside a defined block. Inside the block is our function 
+                  and any time we need that code we can call the code using a single short command, our function call.
+                </p>
+                <p>This saves us from having to type out our same code multiple times.
+                </p>
+                <p>Our example in figure 5 is relatively simple but you can see how the function is called and the function body is activated.
+                </p>
+              </div>
+              <div class="function">
+                <figure>
+                  <img src="#" atl="">
+                  <!--FUNCTIONS PRE IMAGE GOES HERE-->
+                  <figcaption>Figure 5</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div> 
+
+          <div class="study">
+            <p class="h">Arrays</p>
+            <div class="share-space">
+              <div class="words">
+                <p>Arrays are used to store multiple values inside a signle variable. Think of an array like a box. All the items
+                  inside the box are indexed so we can find them. This index starts at 0 for the first item and 1 for the second and so on.
+                </p>
+                <p>Example: <p class="code">let myBox = ["lion", "grasshopper", "tiger", "teddy", "ant", "penguin"]<p></p>
+                <p>To access our box and grab an item we first need to get the box and secondly, we then use <strong>bracket notation ([])</strong>
+                  to find the item we want. Thinking back to our example lets say we wanted to find our teddy inside the box.
+                </p>
+                <p>Example:</p>
+                <p class="code">myBox[3]</p>
+                <p>We grabbed the box we created and then located our teddy inside the box using bracket notation. If you want to check 
+                  this example you yourself you'll need to log the answer to your console. <span class="code">console.log(myBox[3]);</span>
+                </p>
+              </div>
+              <div class="array">
+                <figure>
+                  <img src="#" atl="">
+                  <!--ARRAY PRE IMAGE GOES HERE-->
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div> 
+
+          <div class="study">
+            <p class="h">Objects</p>
+            <div class="share-space">
+              <div class="words">
+                <p>Objects are very similar to arrays (in fact an array is a type of object) in that objects can be used to
+                  store multiple variables. However, unlike an array, instead of each item being assigned an index number, objects 
+                  have 'properties' or 'keys' and values. See figure 6.
+                </p>
+                <p>The difference for us accessing the object when compared to arraysis that we use <strong>dot notation or bracket notation</strong>. 
+                  However, if there is a special character in the objects property/key then we must use bracket notation only. Specical charaters 
+                include spaces, hyphens and more.</p>
+              </div>
+              <div class="object">
+                <figure>
+                  <img src="#" atl="">
+                  <!--OBJECT PRE IMAGE GOES HERE-->
+                  <figcaption>Figure 6</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div> 
+
+          <div class="study">
+            <div class="words">
+              <p>Putting this all together, you can see that our object holds two arrays under "likes" and "family members".
+                 If we wanted to find a particular item inside the array that is located inside our object we would need to first
+                access our object using either dot or bracket notation and then use the arrays index via braket notation to get that item.</p>
+              <p>
+              </p>
+            </div>
+        </div>
+
+        <div class="pictures">
+          <div class="screen-shot">
+              <figure class="screen-shot-item">
+                  <img class="screen" src="..." alt="...">
+                  <figcaption></figcaption>
+              </figure>
+          </div>
+        </div>
+
+        <hr>
 
 
         </main>
