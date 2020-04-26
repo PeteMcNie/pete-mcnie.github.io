@@ -221,7 +221,7 @@ p.preview{
  }
 
 /* 1st child */
- .ss {
+ .screen-shot {
   padding: 0vh 0vw 0vh 0vw;
   margin: 0vh 1vw 0vh 1vw;
   flex-basis: 400px;
@@ -229,7 +229,7 @@ p.preview{
 
 
  /* 2nd child */
- .ss-item {
+ .screen-shot-item {
   flex-basis: 300px;
 }
 
