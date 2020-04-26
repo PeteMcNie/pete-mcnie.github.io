@@ -20,8 +20,9 @@ body {
 
 /* Nav layout CSS */
 .logo {
-  width: 120px;
-  height: 120px;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
   float: left;
 }
 
@@ -38,7 +39,8 @@ body {
 
 .navbar a {
   float: none;
-  padding: 3.5vh 8vw 3vh 8vw;
+  padding: 2vh 8vw 2vh 8vw;
+  margin-top: 10px;
   /* margin-right: 1vw; */
   color: rgb(43, 43, 56);
   text-decoration: none;
@@ -61,6 +63,7 @@ body {
   width: 100%;
   text-align: center;
   padding: 1vh;
+  margin-top: 0px;
   }
 
   .logo {
@@ -160,7 +163,7 @@ p.preview{
 }
 
 .introduction.funinfo {
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 @media screen and (max-width: 600px) {
