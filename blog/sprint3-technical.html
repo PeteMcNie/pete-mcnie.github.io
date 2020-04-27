@@ -64,12 +64,12 @@
                   </p>
                   <p>The DOM is a representation of our HTML document that has elements arranged into the similar tree structure you see in your HTML.
                     It is through this DOM tree structure that we can add to, delete, edit. Each element (&lt;body&gt; or &lt;div&gt;) or attribute (class="time") 
-                    we add in our code is a new NODE (or branch) in the DOM tree structure. What we see as pieces of data such as elements 
-                     & attributes etc the computer sees as NODES in the DOM.</p>
+                    we add in our code is a new NODE (or branch) in the DOM tree structure. What we see as elements & attributes etc the computer sees as NODES in the DOM.</p>
 
                   <p>This is where Javascript comes in. Using Javascript we can manipulate the NODES in the DOM, which we see as manipulation of the pieces of
                     data that make up our webpage, the elements and attributes etc.</p>
-                  <p>If this this confusing to follow the <a href="https://developers.google.com/web/tools/chrome-devtools/dom" target="_blank">Tools for Web Developers</a> article from google explains the DOM in further detail.</p>
+                  <p>If this this confusing to follow the <a href="https://developers.google.com/web/tools/chrome-devtools/dom" target="_blank">Tools for Web Developers</a> 
+                    article from google explains the DOM in further detail and has a couple of great images at the bottom of the page.</p>
                 </div>
                 <div class="dom-model">
                   <figure>
@@ -98,7 +98,7 @@
                 targeting a NODE in the DOM we can add interactivity to our page such as adding events on mouse clicks, pop ups and auto-filling of forms etc.
               </p>
               <p>We can see that our HTML and CSS can be enhanced and altered by Javascript. This gives our page
-                interactivity. Our initial designe can be turned into a chef, banker, police officer or web developer. Just like each of these 
+                interactivity. Our initial person created by HTML and CSS can be turned into a chef, banker, police officer or web developer. Just like each of these 
                 roles having special skills our web page can have unique skills and create a better experience for our guests.
               </p>
             </div>
@@ -181,7 +181,7 @@
                   <figure>
                       <img class="fc" src="../images/loop.png" alt="Figure 4: At the top you can see we have no milk. A 'For' loop is created which will keep running while we have less than three
                       bottles of milk. Underneath the code editor you have see the console has logged the 'Grab a bottle of milk...' three times. The statement 
-                    will only finish once the 'For' loop has reached its stopping condition. In this case, three bottles of milk.">
+                      will only finish once the 'For' loop has reached its stopping condition. In this case, three bottles of milk.">
                       <figcaption>Figure 5: At the top you can see we have no milk. A 'For' loop is created which will keep running while we have less than three
                         bottles of milk. Underneath the code editor you have see the console has logged the 'Grab a bottle of milk...' three times. The statement 
                       will only finish once the 'For' loop has reached its stopping condition. In this case, three bottles of milk.</figcaption>
@@ -193,23 +193,24 @@
           <div class="study">
             <div class="share-space-cf">
               <div class="words">
-                <p class="h">Functions</p>
-                <p>Functions allow us to store a piece of our code inside a defined block. Inside the block is our function 
+                <p class="share-space-heading">Functions</p>
+                <p>Functions allow us to store a piece of our code inside a defined block designated by curly brackets ({}). Inside the block is our function 
                   and any time we need that code we can call the code using a single short command, our function call.
                 </p>
+                <p>Example: Function call</p>
+                <p class="code">functionName();</p>
                 <p>This saves us from having to type out our same code multiple times.
                 </p>
                 <p>Our example in figure 5 is relatively simple but you can see how the function is called and the function body is activated.
+                  The function call is wrapped inside a console.log() so we can see the output in the console.
                 </p>
               </div>
 
               <div class="controlflow">
                 <figure>
-                  <img class="fc" src="..." atl="">
+                  <img class="fc" src="../images/function.png" atl="">
                   <figcaption>Figure 6: A function is declared which takes one parameter or argument, in this case a number. When call the function it
-                     will return number times number. The function call is wrapped in a console.log() so you can see the answer. Now we can pass any numbers 
-                     in as arguments to our function call and in the console you can see the results.
-                  <!--NEED TO GET NEW IMAGE AS THE LAST ONE WAS WRONG-->
+                     will return number times itself. Now we can pass any numbers in as arguments to our function call and in the console you can see the results.
                   </figcaption>
                 </figure>
               </div>
@@ -220,11 +221,12 @@
           <div class="study">
             <div class="share-space-cf">
               <div class="words">
-                <p class="h">Arrays</p>
-                <p>Arrays are used to store multiple values inside a signle variable. Think of an array like a box. All the items
+                <p class="share-space-heading">Arrays</p>
+                <p>Arrays are used to store multiple values inside a single variable. Think of an array like a box. All the items
                   inside the box are indexed so we can find them. This index starts at 0 for the first item and 1 for the second and so on.
                 </p>
-                <p>Example: <p class="code">let myBox = ["lion", "grasshopper", "tiger", "teddy", "ant", "penguin"]<p></p>
+                <p>Example: Array</p>
+                <p class="code">let myBox = ["lion", "grasshopper", "tiger", "teddy", "ant", "penguin"]</p>
                 <p>To access our box and grab an item we first need to get the box and secondly, we then use <strong>bracket notation ([])</strong>
                   to find the item we want. Thinking back to our example lets say we wanted to find our teddy inside the box.
                 </p>
@@ -234,12 +236,13 @@
                   this example you yourself you'll need to log the answer to your console. <span class="code">console.log(myBox[3]);</span>
                 </p>
               </div>
+
               <div class="controlflow">
                 <figure>
                   <img class="fc" src="../images/array.png" atl="">
-                  <figcaption>Figure 7: An array has been created called myArray. Inside the array we have stored our favorite animals. To find out 
+                  <figcaption>Figure 7: Inside the myArray we have stored our favorite animals. To find out 
                     what our first favorite animal listed in the array is, we need to access the array by calling our array name and then use brackert
-                    notation on the index number.
+                    notation on the index number. There is also a dot notation call in green which if run would not work.
                   </figcaption>
                 </figure>
               </div>
@@ -250,14 +253,18 @@
           <div class="study">
             <div class="share-space-cf">
               <div class="words">
-                <p class="h">Objects</p>
+                <p class="share-space-heading">Objects</p>
                 <p>Objects are very similar to arrays (in fact an array is a type of object) in that objects can be used to
                   store multiple variables. However, unlike an array, instead of each item being assigned an index number, objects 
-                  have 'properties' or 'keys' and values. See figure 6.
+                  have 'properties' or 'keys' and values. See figure 8.
                 </p>
+                <p>Example: Object</p>
+                <p class="code">let car = {"make": "toyota", "model": "corolla", "engine": 1500cc}</p>
                 <p>The difference for us accessing the object when compared to arraysis that we use <strong>dot notation or bracket notation</strong>. 
                   However, if there is a special character in the objects property/key then we must use bracket notation only. Specical charaters 
                 include spaces, hyphens and more.</p>
+                <p>Example:</p>
+                <p class="code">car.make or car["make"]</p>
               </div>
               <div class="controlflow">
                 <figure>
@@ -281,20 +288,16 @@
             </div>
         </div>
 
-        <div class="share-space-cf">
-          <div>
+        <div class="share-space-bt">
               <figure>
-                  <img class="fc lastImage" src="../images/ojectarray.png" alt="The object has been called using bracket notation due to its property/key name having a special
+                  <img class="lastImage" src="../images/ojectarray.png" alt="The object has been called using bracket notation due to its property/key name having a special
                   charater. Then bracket notation is used again to access the second person in the array.">
-                  <figcaption>Figure 9: You can see the object has been called using bracket notation due to its property/key name having a special
+                  <figcaption class="bottom">Figure 9: You can see the object has been called using bracket notation due to its property/key name having a special
                     charater. Then bracket notation is used again to access the second person in the array.</figcaption>
               </figure>
-          </div>
         </div>
 
         <hr>
-
-
         </main>
     </body>
   </html>
