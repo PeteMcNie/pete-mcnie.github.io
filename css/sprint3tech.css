@@ -216,7 +216,8 @@
   
    .code {
      font-family: 'Courier New', Courier, monospace;
-   }
+     list-style-type: none;
+    }
    /* Parent */
    .pictures {
     display: flex;
@@ -262,8 +263,6 @@
 
   .share-space-heading {
     font-size: 1.3em;
-    /* padding-left: 1.5vw; */
-    border: solid 1px rebeccapurple;
   }
 
 
