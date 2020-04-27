@@ -178,9 +178,6 @@
     .introduction.funinfo {
       font-size: 2vh;
     }
-    
-  
-    
   }
   
   
@@ -196,7 +193,7 @@
    }
   
    h4 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin: 1.5vh 0.5vw 0.5vh 0.5vw;
     padding-left: 1.5vw;
    }
@@ -205,12 +202,12 @@
     width: 100%;
     padding: 0.5vh 3vw 0.5vh 1vw;
     margin-left: 2vw;
-    line-height: 1.6;
-    font-size: 1em;
+    line-height: 1.8;
+    font-size: 1.2em;
    }
   
    .h {
-     font-size: 1.3em;
+     font-size: 1.5em;
      padding-left: 1.5vw;
    }
   
@@ -218,6 +215,7 @@
      font-family: 'Courier New', Courier, monospace;
      list-style-type: none;
     }
+
    /* Parent */
    .pictures {
     display: flex;
@@ -263,26 +261,44 @@
       margin-left: auto;
       margin-right: auto;
     }
-
+  }
 
 /* #####SPRINT 3 TECH IMAGE STYLING */
-/* .controlflow {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: block;  
-} */
+.share-space-cf {
+  display: flex;
+  align-items: top;
+  padding: 10px;
+}
 
-/* img.fc {
-  max-width: 500px;
+img.fc {
+  max-width: 900px;
   width: 100%;
   height: auto;
   display: inline-block;
-} */
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
 
+@media screen and (max-width: 1100px) {
+  .share-space-cf {
+    display: block;
+    align-items: center;
+    padding: 10px;
+  }
 
-  @media screen and (max-width: 900px) {
-    .controlflow {
+  @media screen and (max-width: 1100px) {
+    img.fc {
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /* @media screen and (max-width: 900px) {
+    .dom-model {
       max-width: 500px;
       width: 100%;
       height: auto;
@@ -290,3 +306,4 @@
       margin-left: auto;
       margin-right: auto;
     }
+  } */
