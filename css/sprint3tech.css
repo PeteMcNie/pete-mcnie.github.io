@@ -306,13 +306,12 @@ figcaption {
       float: none;
     }
     figcaption {
-  
       text-align: left;
     }
 
   }
 
-/* ####LAST IMAGE STYLING */
+/* ####LAST IMAGE STYLING need to center last image still*/
   .share-space-bt {
     display: block;
     align-items: center;
@@ -327,7 +326,6 @@ figcaption {
     padding-top: 1vh;
     padding-bottom: 1vh;
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-
   }
   
   .bottom {
