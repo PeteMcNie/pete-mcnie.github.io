@@ -145,6 +145,8 @@ p.preview{
   align-items: center;
   background-color: black;
   padding: 10px;
+  border: 1px red solid;
+  margin: 1vh 5vw 1vh 5vw;
 }
 
 .introduction{
@@ -163,10 +165,23 @@ p.preview{
 }
 
 .introduction.funinfo {
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 
 @media screen and (max-width: 600px) {
+  .share {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 1px red solid;
+    margin: 1vh 1vw 1vh 1vw;
+  }
+  
+  .introduction{
+    margin: 1vh 1vw 1vh 1vw;
+    border: 1px blue solid;
+  }
+  
   .kakapo {
     max-width: 300px;
     width: 100%;
@@ -176,15 +191,9 @@ p.preview{
   }
   
   .introduction.funinfo {
-    font-size: 2vh;
-  }
-  
-
-  
+    font-size: 3vh;
+  } 
 }
-
-
-
 /* #####KAKAPO SECTION ENDS###### */
 
 
@@ -246,10 +255,4 @@ p.preview{
 }
 
 
-/* ######SPRINT3 TECH######## */
-.share-space {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
 
