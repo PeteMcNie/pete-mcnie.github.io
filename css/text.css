@@ -166,6 +166,7 @@ p.preview{
     flex-basis: 150px;
     margin: 1.5vw;
   }
+}
 
 @media screen and (max-width: 350px) {
     .blog-list a {
@@ -177,7 +178,6 @@ p.preview{
 
 
 /* ######KAKAPO SECTION###### */
-
 .share {
   display: flex;
   align-items: center;
@@ -230,6 +230,8 @@ p.preview{
   } 
 }
 /* #####KAKAPO SECTION ENDS###### */
+
+
 
 
 
