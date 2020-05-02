@@ -280,4 +280,14 @@ span.rating {
 }
 
 
+/* ######SPRINT 4 IMAGE CSS*/
+.maze-width {
+  padding: 1vh 1vw 1vh 1vw;
+}
 
+
+img.maze {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+}
