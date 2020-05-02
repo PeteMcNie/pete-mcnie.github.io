@@ -235,6 +235,19 @@ p.preview{
    font-size: 1.3em;
  }
 
+ span.h {
+  font-size: 1.3em;
+}
+
+span.rating {
+  font-size: 1.1em;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-left: 1vw;
+  background-color: black;
+  color: white;
+}
+
  .code {
    font-family: 'Courier New', Courier, monospace;
  }
