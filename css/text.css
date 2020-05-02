@@ -28,7 +28,6 @@ body {
   float: left;
 }
 
-
 .navbar {
   width: 100%;
   background-color: white;
@@ -43,7 +42,6 @@ body {
   float: none;
   padding: 2vh 8vw 2vh 8vw;
   margin-top: 10px;
-  /* margin-right: 1vw; */
   color: rgb(43, 43, 56);
   text-decoration: none;
   font-size: 20px;
@@ -58,20 +56,46 @@ body {
   background-color: white;
 }
 
+@media screen and (max-width: 1000px) {
+  .logo {
+    max-width: 90px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    max-width: 85px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    max-width: 80px;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  .navbar {
+    text-align: center;
+  }
   .navbar a {
-  float: none;
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding: 1vh;
   margin-top: 0px;
   }
-
   .logo {
   display: none;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .navbar a {
+  font-size: 1em;
+  padding: 2vh 7vw 2vh 7vw;
+  }
+}
+
+
+
+
 /* NEW NAV BAR ENDS######################## */
 
 
