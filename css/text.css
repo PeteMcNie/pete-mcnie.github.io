@@ -105,10 +105,8 @@ h2.title {
 
 
 /* Blog LINKS CSS */
-/* parent */
-.blogs {
-  
-}
+
+
 
 /* First child */
 .blog-list {
@@ -117,7 +115,6 @@ h2.title {
   justify-content: center;
   list-style-type: none;
   padding-inline-start: 0px;
-  border: blue 1px solid;
 }
 
 /* Second child */
@@ -128,13 +125,8 @@ h2.title {
   padding: 1vw;
   border-radius: 5%;
   background-color: white;
-  border: coral solid 1px;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
-
-/* #######ADD RESPONSIVE MEDIA QUERIES SECTION HERE FOR BLOG LINKS
-###########ONCE YOU ALTER IMGS TO BE RESPONSIVE YOU WILL NEED TO PLAY
-###########WITH CLASSES AND ALL OTHER IMAGES TO MAKE SURE THEY ARE OK */
 
 img {
   width: 100%;
@@ -151,6 +143,35 @@ p.preview{
   text-align: center;
   font-size: 1em;
   color: black;
+}
+
+
+@media screen and (max-width: 700px) {
+  .blog-list a {
+    flex-basis: 175px;
+    margin: 2vw;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+  
+  p.preview{
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blog-list a {
+    flex-basis: 150px;
+    margin: 1.5vw;
+  }
+
+@media screen and (max-width: 350px) {
+    .blog-list a {
+      flex-basis: 140px;
+      margin: 1.5vw;
+    }
 }
 /* Blog CSS ends */
 
