@@ -41,7 +41,7 @@ body {
 .navbar a {
   float: none;
   padding: 2vh 8vw 2vh 8vw;
-  margin-top: 10px;
+  margin-top: 25px;
   color: rgb(43, 43, 56);
   text-decoration: none;
   font-size: 20px;
@@ -60,11 +60,17 @@ body {
   .logo {
     max-width: 90px;
   }
+  .navbar a {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .logo {
     max-width: 85px;
+  }
+  .navbar a {
+    margin-top: 17px;
   }
 }
 
@@ -72,7 +78,12 @@ body {
   .logo {
     max-width: 80px;
   }
+  .navbar a {
+    margin-top: 15px;
+  }
 }
+
+
 
 @media screen and (max-width: 600px) {
   .navbar {
