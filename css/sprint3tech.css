@@ -269,7 +269,6 @@ p.preview{
  .study {
     width: 100%;
     margin-bottom: 1vh;
-    border: violet solid 1px;
  }
 
  h4 {
@@ -283,12 +282,10 @@ p.preview{
   padding: 0vh 12vw 0vh 12vw;
   line-height: 1.7;
   font-size: 18px;
-  border: yellow solid 1px;
  }
 
  .h {
    font-size: 25px;
-   border: green solid 1px;
  }
 
  @media screen and (max-width: 900px) {
