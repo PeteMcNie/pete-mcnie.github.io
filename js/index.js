@@ -1,15 +1,11 @@
 // TABS JS
 function changeTab (event, tabName) {
-    let tabContent;
-    let tablinks;
-
-    tabContent = document.getElementsByClassName("tabcontent");
+    let tabContent = document.getElementsByClassName("tabcontent");;
+    let tablinks = document.getElementsByClassName("tablinks");
 
     for (let i = 0; i < tabContent.length; i++) {
         tabContent[i].style.display = "none";
     }
-
-    tablinks = document.getElementsByClassName("tablinks");
 
     for (let i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace("active", "");
