@@ -135,9 +135,6 @@ h2.title {
 
 
 /* Blog LINKS CSS */
-
-
-
 /* First child */
 .blog-list {
   display: flex;
@@ -280,7 +277,6 @@ p.preview{
 
  .words {
   width: 100%;
-  margin: .5vh 2vw .5vh 2vw;
   padding: 0vh 12vw 0vh 12vw;
   line-height: 1.7;
   font-size: 18px;
@@ -295,14 +291,10 @@ p.preview{
  @media screen and (max-width: 900px) {
   h4 {
     font-size: 25px;
-    margin: 1.5vh 0.5vw 0.5vh 0.5vw;
-    padding-left: 4vw;
    }
 
    .words {
-    width: 100%;
-    margin: 1vh 20vw 1vh 20vw;
-    padding: 10vh 12vw 10vh 12vw;
+    padding: 0vh 12vw 0vh 12vw;
     line-height: 1.7;
     font-size: 15px;
     border: yellow solid 1px;
@@ -313,6 +305,26 @@ p.preview{
      border: green solid 1px;
    }
 }
+
+@media screen and (max-width: 750px) {
+  h4 {
+    font-size: 20px;
+   }
+
+   .words {
+    padding: 0vh 12vw 0vh 12vw;
+    line-height: 1.7;
+    font-size: 14px;
+    border: yellow solid 1px;
+   }
+  
+   .h {
+     font-size: 18px;
+     border: green solid 1px;
+   }
+}
+
+
 
  span.h {
   font-size: 1.3em;
@@ -425,7 +437,7 @@ img.maze {
   display: none; /* Hidden by default */
   position: fixed;
   bottom: 15px; 
-  right: 35px; 
+  right: 25px; 
   z-index: 99; /* Make sure it does not overlap */
   border: none; 
   outline: none; 
@@ -443,14 +455,35 @@ img.maze {
 }
 
 
-@media screen and (max-width: 700px) {
-
+@media screen and (max-width: 1050px) {
+  #backTop { 
+    right: 25px; 
+    font-size: 15px;
+  }
 }
 
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 950px) {
+  #backTop {
+    right: 20px; 
+  }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 900px) {
+  #backTop {
+    bottom: 10px;
+    right: 10px; 
+    padding: 13px;
+  }
+}
 
+@media screen and (max-width: 850px) {
+  #backTop {
+    padding: 10px; 
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #backTop {
+    display: none;
+  }
 }
