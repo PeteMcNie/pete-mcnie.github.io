@@ -16,3 +16,21 @@ function changeTab (event, tabName) {
     document.getElementById(tabName).style.display = "block";
     event.currentTarget.className += " active";
 }
+
+
+// BACK TO TOP BUTTON
+topButton = document.getElementById("backTop");
+window.onscroll = function () {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+}
+
+function returnToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
