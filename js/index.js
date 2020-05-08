@@ -1,4 +1,6 @@
 // TABS JS
+document.getElementById("default").click();
+
 function changeTab (event, tabName) {
     let tabContent = document.getElementsByClassName("tabcontent");;
     let tablinks = document.getElementsByClassName("tablinks");
