@@ -36,6 +36,7 @@ body {
   top: 0;
   left: 0;
   text-align: right; 
+  cursor: pointer;
 }
 
 .navbar a {
@@ -83,8 +84,6 @@ body {
   }
 }
 
-
-
 @media screen and (max-width: 600px) {
   .navbar {
     text-align: center;
@@ -103,10 +102,6 @@ body {
   padding: 2vh 7vw 2vh 7vw;
   }
 }
-
-
-
-
 /* NEW NAV BAR ENDS######################## */
 
 
@@ -116,7 +111,7 @@ body {
 /* Main body CSS */
 .title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 2em;
 }
 
 hr {
@@ -125,7 +120,7 @@ hr {
 
 h2.title {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.7em;
 }
 
 .main {
@@ -355,26 +350,31 @@ img.maze {
 /* ###TABS SECTION CSS */
 .tab {
   overflow: hidden;
-  border: 1px solid blue;
-  background-color: rgb(175, 167, 164);
+  background-color: rgb(196, 196, 196);
+  text-align: center;
 }
 
 .tab button {
+  font-size: 1.2em;
   background-color: inherit;
-  float: left;
+  float: none;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 2vh 5vw 2vh 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   transition: 0.3s;
 }
 
 .tab button:hover {
-  background-color: khaki;
+  color: rgb(56, 54, 68);
+  background-color: white;
 }
 
 .tab button.active {
-  background-color: rgb(66, 58, 141);
+  color: white;
+  background-color: rgb(56, 54, 68);
 }
 
 .tabcontent {
