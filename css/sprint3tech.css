@@ -1,157 +1,250 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Lato', sans-serif;
-    position: relative;
-    background-color: rgb(235, 235, 235);
-  }
-  
-  /* Page layout CSS */
-  .main {
-    height: 55vh;
-    margin-top: 1vh;
-    padding-top: 25vh;
-  }
-  /* Page layout CSS ends */
-  
-  
-  
-  /* Nav layout CSS */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  background-color: rgb(235, 235, 235);
+}
+
+/* Page layout CSS */
+.main {
+  height: 55vh;
+  margin-top: 1vh;
+  padding-top: 25vh;
+}
+/* Page layout CSS ends */
+
+
+
+
+
+/* Nav layout CSS */
+.logo {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: right; 
+  cursor: pointer;
+}
+
+.navbar a {
+  float: none;
+  padding: 2vh 8vw 2vh 8vw;
+  margin-top: 25px;
+  color: rgb(43, 43, 56);
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  color: rgb(212, 129, 4);
+}
+
+.navbar a.active {
+  background-color: white;
+}
+
+@media screen and (max-width: 1000px) {
   .logo {
-    max-width: 100px;
-    width: 100%;
-    height: auto;
-    float: left;
+    max-width: 90px;
   }
-  
-  
-  .navbar {
-    width: 100%;
-    background-color: white;
-    overflow: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    text-align: right; 
-  }
-  
   .navbar a {
-    float: none;
-    padding: 2vh 8vw 2vh 8vw;
-    margin-top: 10px;
-    /* margin-right: 1vw; */
-    color: rgb(43, 43, 56);
-    text-decoration: none;
-    font-size: 20px;
-    display: inline-block;
+    margin-top: 20px;
   }
-  
-  .navbar a:hover {
-    color: rgb(212, 129, 4);
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    max-width: 85px;
   }
-  
-  .navbar a.active {
-    background-color: white;
+  .navbar a {
+    margin-top: 17px;
   }
-  
-  @media screen and (max-width: 600px) {
-    .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    max-width: 80px;
+  }
+  .navbar a {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
     text-align: center;
-    padding: 1vh;
-    margin-top: 0px;
-    }
-  
-    .logo {
-    display: none;
-    }
   }
-  /* NEW NAV BAR ENDS######################## */
-  
-  
-  
-  /* Main body CSS */
-  .title {
-    text-align: center;
-    font-size: 4vh;
+  .navbar a {
+  margin-top: 0px;
   }
-  
-  hr {
-    width: 80%;
+  .logo {
+  display: none;
   }
-  
-  h2.title {
-    text-align: center;
-    font-size: 2.5vh;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar a {
+  font-size: 1em;
+  padding: 2vh 7vw 2vh 7vw;
   }
-  
-  .main {
-    background-image: url("../images/unipalebw.png");
-    width: 100%;
-    background-size: cover;
-  }
-  /* Main body CSS end */
-  
-  
-  
-  /* Blog CSS */
-  /* parent */
-  .blog-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style-type: none;
-    
-  }
-  
-  /* child */
+}
+/* NEW NAV BAR ENDS######################## */
+
+
+
+
+
+/* Main body CSS */
+.title {
+  text-align: center;
+  font-size: 2em;
+}
+
+hr {
+  width: 80%;
+}
+
+h2.title {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.main {
+  background-image: url("../images/unipalebw.png");
+  width: 100%;
+  background-size: cover;
+}
+/* Main body CSS end */
+
+
+
+
+
+/* Blog LINKS CSS */
+
+
+
+/* First child */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+/* Second child */
+.blog-list a {
+  text-decoration: none;
+  flex-basis: 300px;
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 5%;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+}
+
+p.preview{
+  text-align: center;
+  font-size: 1em;
+  color: black;
+}
+
+
+@media screen and (max-width: 700px) {
   .blog-list a {
-    text-decoration: none;
-    flex-basis: 300px;
-    margin: 1vw;
-    padding: 1vw;
-    border-radius: 5%;
-    background-color: white;
-    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-basis: 175px;
+    margin: 2vw;
   }
-  
-  img {
-    width: 100%;
-    height: auto;
-  }
-  
+
   h3 {
-    text-align: center;
-    font-size: 1.5em;
-    color: black;
+    font-size: 1em;
   }
   
   p.preview{
-    text-align: center;
-    font-size: 1em;
-    color: black;
+    font-size: .8em;
   }
-  /* Blog CSS ends */
-  
-  
-  /* ######KAKAPO SECTION###### */
-  
+}
+
+@media screen and (max-width: 400px) {
+  .blog-list a {
+    flex-basis: 150px;
+    margin: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+    .blog-list a {
+      flex-basis: 140px;
+      margin: 1.5vw;
+    }
+}
+/* Blog CSS ends */
+
+
+/* ######KAKAPO SECTION###### */
+.share {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  margin: 1vh 5vw 1vh 5vw;
+}
+
+.introduction{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.kakapo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: inline-block;  
+}
+
+.introduction.funinfo {
+  font-size: 2.5vh;
+}
+
+@media screen and (max-width: 600px) {
   .share {
     display: flex;
     align-items: center;
     background-color: black;
-    padding: 10px;
+    margin: 1vh 1vw 1vh 1vw;
   }
   
   .introduction{
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-    color: white;
+    margin: 1vh 1vw 1vh 1vw;
   }
   
   .kakapo {
@@ -163,66 +256,105 @@
   }
   
   .introduction.funinfo {
-    font-size: 2vh;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .kakapo {
-      max-width: 300px;
-      width: 100%;
-      height: auto;
-      border-radius: 50%;
-      display: inline-block;  
-    }
-    
-    .introduction.funinfo {
-      font-size: 2vh;
-    }
-  }
-  
-  
-  
-  /* #####KAKAPO SECTION ENDS###### */
-  
-  
-  
-   /* Section/main writing area */
-   .study {
-      width: 100%;
-      margin-bottom: 1vh;
-   }
-  
-   h4 {
-    font-size: 2em;
+    font-size: 3vh;
+  } 
+}
+/* #####KAKAPO SECTION ENDS###### */
+
+
+
+
+
+ /* Section/main writing area */
+ .study {
+    width: 100%;
+    margin-bottom: 1vh;
+    border: violet solid 1px;
+ }
+
+ h4 {
+  font-size: 30px;
+  margin: 1.5vh 0.5vw 0.5vh 0.5vw;
+  padding-left: 4vw;
+ }
+
+ .words {
+  width: 100%;
+  margin: .5vh 2vw .5vh 2vw;
+  padding: 0vh 12vw 0vh 12vw;
+  line-height: 1.7;
+  font-size: 18px;
+  border: yellow solid 1px;
+ }
+
+ .h {
+   font-size: 25px;
+   border: green solid 1px;
+ }
+
+ @media screen and (max-width: 900px) {
+  h4 {
+    font-size: 25px;
     margin: 1.5vh 0.5vw 0.5vh 0.5vw;
-    padding-left: 1.5vw;
+    padding-left: 4vw;
    }
-  
+
    .words {
     width: 100%;
-    padding: 0.5vh 3vw 0.5vh 1vw;
-    margin-left: 2vw;
-    line-height: 1.8;
-    font-size: 1.2em;
+    margin: 1vh 20vw 1vh 20vw;
+    padding: 10vh 12vw 10vh 12vw;
+    line-height: 1.7;
+    font-size: 15px;
+    border: yellow solid 1px;
    }
   
    .h {
-     font-size: 1.5em;
-     padding-left: 1.5vw;
+     font-size: 20px;
+     border: green solid 1px;
    }
-  
-   .code {
-     font-family: 'Courier New', Courier, monospace;
-     list-style-type: none;
-    }
+}
 
-   /* Parent */
-   .pictures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   }
-  
+ span.h {
+  font-size: 1.3em;
+}
+
+span.rating {
+  font-size: 1.1em;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-left: 1vw;
+  background-color: black;
+  color: white;
+}
+
+ .code {
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ /* Parent */
+ .pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ }
+
+/* 1st child */
+ .screen-shot {
+  padding: 0vh 0vw 0vh 0vw;
+  margin: 0vh 1vw 0vh 1vw;
+  flex-basis: 400px;
+ }
+
+
+ /* 2nd child */
+ .screen-shot-item {
+  flex-basis: 300px;
+}
+
+
+
+
 
   /* ######SPRINT3 TECH######## */
   .share-space {

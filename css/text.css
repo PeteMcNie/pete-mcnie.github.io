@@ -273,23 +273,46 @@ p.preview{
  }
 
  h4 {
-  font-size: 1.8em;
+  font-size: 30px;
   margin: 1.5vh 0.5vw 0.5vh 0.5vw;
   padding-left: 4vw;
  }
 
  .words {
   width: 100%;
-  padding: 0.5vh 10vw 0.5vh 10vw;
-  line-height: 1.8;
+  margin: .5vh 2vw .5vh 2vw;
+  padding: 0vh 12vw 0vh 12vw;
+  line-height: 1.7;
   font-size: 18px;
   border: yellow solid 1px;
  }
 
  .h {
-   font-size: 1.7em;
+   font-size: 25px;
    border: green solid 1px;
  }
+
+ @media screen and (max-width: 900px) {
+  h4 {
+    font-size: 25px;
+    margin: 1.5vh 0.5vw 0.5vh 0.5vw;
+    padding-left: 4vw;
+   }
+
+   .words {
+    width: 100%;
+    margin: 1vh 20vw 1vh 20vw;
+    padding: 10vh 12vw 10vh 12vw;
+    line-height: 1.7;
+    font-size: 15px;
+    border: yellow solid 1px;
+   }
+  
+   .h {
+     font-size: 20px;
+     border: green solid 1px;
+   }
+}
 
  span.h {
   font-size: 1.3em;
@@ -307,6 +330,7 @@ span.rating {
  .code {
    font-family: 'Courier New', Courier, monospace;
  }
+
  /* Parent */
  .pictures {
   display: flex;
@@ -328,12 +352,6 @@ span.rating {
   flex-basis: 300px;
 }
 
-
-.pink {
-  background-color: pink;
-  margin: 10px;
-  padding: 10px;
-}
 
 
 /* ######SPRINT 4 IMAGE CSS*/
@@ -407,7 +425,7 @@ img.maze {
   display: none; /* Hidden by default */
   position: fixed;
   bottom: 15px; 
-  right: 20px; 
+  right: 35px; 
   z-index: 99; /* Make sure it does not overlap */
   border: none; 
   outline: none; 
