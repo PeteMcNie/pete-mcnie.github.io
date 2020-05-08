@@ -266,7 +266,6 @@ p.preview{
  .study {
     width: 100%;
     margin-bottom: 1vh;
-    border: violet solid 1px;
  }
 
  h4 {
@@ -280,12 +279,10 @@ p.preview{
   padding: 0vh 12vw 0vh 12vw;
   line-height: 1.7;
   font-size: 18px;
-  border: yellow solid 1px;
  }
 
  .h {
    font-size: 25px;
-   border: green solid 1px;
  }
 
  @media screen and (max-width: 900px) {
@@ -294,15 +291,13 @@ p.preview{
    }
 
    .words {
-    padding: 0vh 12vw 0vh 12vw;
+    padding: 0vh 8vw 0vh 8vw;
     line-height: 1.7;
     font-size: 15px;
-    border: yellow solid 1px;
    }
   
    .h {
      font-size: 20px;
-     border: green solid 1px;
    }
 }
 
@@ -312,15 +307,13 @@ p.preview{
    }
 
    .words {
-    padding: 0vh 12vw 0vh 12vw;
+    padding: 0vh 5vw 0vh 5vw;
     line-height: 1.7;
     font-size: 14px;
-    border: yellow solid 1px;
    }
   
    .h {
      font-size: 18px;
-     border: green solid 1px;
    }
 }
 
@@ -342,6 +335,7 @@ span.rating {
  .code {
    font-family: 'Courier New', Courier, monospace;
  }
+
 
  /* Parent */
  .pictures {
@@ -413,7 +407,6 @@ img.maze {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid green;
   border-top: none;
   -webkit-animation: fadeEffect 3s;
   animation: fadeEffect 3s;
