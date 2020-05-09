@@ -291,12 +291,12 @@ p.preview{
  @media screen and (max-width: 900px) {
   h4 {
     font-size: 25px;
+    padding-left: 6vw;
    }
 
    .words {
-    padding: 0vh 12vw 0vh 12vw;
-    line-height: 1.7;
     font-size: 15px;
+    padding: 0vh 8vw 0vh 8vw;
    }
   
    .h {
@@ -310,15 +310,15 @@ p.preview{
    }
 
    .words {
-    padding: 0vh 12vw 0vh 12vw;
-    line-height: 1.7;
     font-size: 14px;
+    padding: 0vh 5vw 0vh 5vw;
    }
   
    .h {
      font-size: 18px;
    }
 }
+
 
 span.h {
   font-size: 1.3em;

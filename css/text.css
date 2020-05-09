@@ -288,11 +288,11 @@ p.preview{
  @media screen and (max-width: 900px) {
   h4 {
     font-size: 25px;
+    padding-left: 6vw;
    }
 
    .words {
     padding: 0vh 8vw 0vh 8vw;
-    line-height: 1.7;
     font-size: 15px;
    }
   
@@ -304,11 +304,11 @@ p.preview{
 @media screen and (max-width: 750px) {
   h4 {
     font-size: 20px;
+    padding-left: 3vw;
    }
 
    .words {
     padding: 0vh 5vw 0vh 5vw;
-    line-height: 1.7;
     font-size: 14px;
    }
   
@@ -317,9 +317,15 @@ p.preview{
    }
 }
 
+#preSpan {
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+  border: red solid 1px;
+}
 
 
- span.h {
+
+span.h {
   font-size: 1.3em;
 }
 
