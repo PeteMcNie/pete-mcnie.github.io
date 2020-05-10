@@ -1,5 +1,9 @@
 // TABS JS
-document.getElementById("default").click();
+let defaultTab = document.getElementById("default") 
+
+if (defaultTab) {  //checks if default is true(an id on the page)
+    defaultTab.click();
+}
 
 function changeTab (event, tabName) {
     let tabContent = document.getElementsByClassName("tabcontent");;
@@ -19,8 +23,11 @@ function changeTab (event, tabName) {
 
 
 // BACK TO TOP BUTTON
-topButton = document.getElementById("backTop");
-window.onscroll = function () {scrollFunction()};
+let topButton = document.getElementById("backTop");
+
+if (topButton) {
+    window.onscroll = scrollFunction;
+}
 
 function scrollFunction() {
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
