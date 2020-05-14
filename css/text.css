@@ -285,21 +285,23 @@ p.preview{
  }
 
  h4 {
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   margin: 1.5vh 0.5vw 0.5vh 0.5vw;
   padding-left: 10vw;
  }
 
+ .h {
+  font-size: 1.8rem;
+}
+
  .words {
   width: 100%;
   padding: 0vh 12vw 0vh 12vw;
-  line-height: 1.7;
+  line-height: 1.6;
   font-size: 1.4rem;
  }
 
- .h {
-   font-size: 1.6rem;
- }
+
 
 @media screen and (max-width: 900px) {
   h4 {
@@ -307,13 +309,13 @@ p.preview{
     padding-left: 6vw;
    }
 
+   .h {
+    font-size: 1.5rem;
+  }
+
    .words {
     padding: 0vh 8vw 0vh 8vw;
     font-size: 1.3rem;
-   }
-  
-   .h {
-     font-size: 1.5rem;
    }
 } 
 
@@ -322,14 +324,14 @@ p.preview{
     font-size: 1.5rem;
     padding-left: 3vw;
    }
+     
+   .h {
+    font-size: 1.3rem;
+  }
 
    .words {
     padding: 0vh 5vw 0vh 5vw;
-    font-size: 1rem;
-   }
-  
-   .h {
-     font-size: 1.3rem;
+    font-size: 1.1rem;
    }
 } 
 
